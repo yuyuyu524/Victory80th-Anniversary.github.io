@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>英雄人物 · 纪念中国人民抗日战争胜利80周年</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="heroes-page">
+    <div class="layout">
+      <aside class="sidebar" aria-label="主导航">
+        <div class="sidebar-header">
+          <h1 class="site-title">纪念中国人民抗日战争胜利80周年</h1>
+          <button
+            class="toggle-btn"
+            type="button"
+            aria-expanded="true"
+            aria-controls="sidebar-nav"
+          >
+            <span class="toggle-icon" aria-hidden="true"></span>
+            <span class="sr-only">收起侧边栏</span>
+          </button>
+        </div>
+        <p class="subtitle">铭记历史 缅怀先烈 珍爱和平 开创未来</p>
+        <nav id="sidebar-nav" class="sidebar-nav">
+          <a class="nav-link" href="index.html"><span>首页</span></a>
+          <a class="nav-link" href="timeline.html"><span>回望历史</span></a>
+          <a class="nav-link active" href="heroes.html"><span>英雄人物</span></a>
+          <a class="nav-link" href="today.html"><span>还看今朝</span></a>
+          <a class="nav-link" href="strong-army.html"><span>强军篇章</span></a>
+        </nav>
+      </aside>
+
+      <main class="content" id="main-content">
+        <div class="content-inner">
+          <header class="page-hero hero-heroes">
+            <div class="hero-overlay" aria-hidden="true"></div>
+            <div class="hero-content">
+              <h2>英雄人物</h2>
+              <p>
+                缅怀无数在抗战烽火中舍生忘死的英雄，将他们的精神铭刻于心。
+              </p>
+            </div>
+          </header>
+
+          <section class="page-section heroes-section" aria-labelledby="heroes-title">
+            <h3 id="heroes-title">浩气长存</h3>
+            <div class="hero-grid">
+              <article class="hero-card">
+                <img src="图片/杨靖宇.webp" alt="杨靖宇" />
+                <div class="hero-info">
+                  <h3>杨靖宇：头颅可断志不磨</h3>
+                  <a class="btn" href="hero-yangjingyu.html">查看详情</a>
+                </div>
+              </article>
+              <article class="hero-card">
+                <img src="图片/赵尚志.webp" alt="赵尚志" />
+                <div class="hero-info">
+                  <h3>赵尚志：冰天雪地矢壮志</h3>
+                  <a class="btn" href="hero-zhaoshangzhi.html">查看详情</a>
+                </div>
+              </article>
+              <article class="hero-card">
+                <img src="图片/佟麟阁.webp" alt="佟麟阁" />
+                <div class="hero-info">
+                  <h3>佟麟阁：英雄血尽余遗垒</h3>
+                  <a class="btn" href="hero-tonglinge.html">查看详情</a>
+                </div>
+              </article>
+              <article class="hero-card">
+                <img src="图片/赵登禹.webp" alt="赵登禹" />
+                <div class="hero-info">
+                  <h3>赵登禹：大刀歌起忆英豪</h3>
+                  <a class="btn" href="hero-zhaodengyu.html">查看详情</a>
+                </div>
+              </article>
+              <article class="hero-card">
+                <img src="图片/左权.webp" alt="左权" />
+                <div class="hero-info">
+                  <h3>左权：愿拼热血卫吾华</h3>
+                  <a class="btn" href="hero-zuoquan.html">查看详情</a>
+                </div>
+              </article>
+              <article class="hero-card">
+                <img src="图片/彭雪枫.webp" alt="彭雪枫" />
+                <div class="hero-info">
+                  <h3>彭雪枫：虎胆英雄望拂晓</h3>
+                  <a class="btn" href="hero-pengxuefeng.html">查看详情</a>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <footer class="site-footer">
+            <p>纪念中国人民抗日战争暨世界反法西斯战争胜利80周年专题网站</p>
+            <p>铭记历史 · 缅怀先烈 · 珍爱和平 · 开创未来</p>
+          </footer>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
+

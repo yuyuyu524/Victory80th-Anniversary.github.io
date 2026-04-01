@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>强军篇章 · 纪念中国人民抗日战争胜利80周年</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="strong-army-page">
+    <div class="layout">
+      <aside class="sidebar" aria-label="主导航">
+        <div class="sidebar-header">
+          <h1 class="site-title">纪念中国人民抗日战争胜利80周年</h1>
+          <button
+            class="toggle-btn"
+            type="button"
+            aria-expanded="true"
+            aria-controls="sidebar-nav"
+          >
+            <span class="toggle-icon" aria-hidden="true"></span>
+            <span class="sr-only">收起侧边栏</span>
+          </button>
+        </div>
+        <p class="subtitle">铭记历史 缅怀先烈 珍爱和平 开创未来</p>
+        <nav id="sidebar-nav" class="sidebar-nav">
+          <a class="nav-link" href="index.html"><span>首页</span></a>
+          <a class="nav-link" href="timeline.html"><span>回望历史</span></a>
+          <a class="nav-link" href="heroes.html"><span>英雄人物</span></a>
+          <a class="nav-link" href="today.html"><span>还看今朝</span></a>
+          <a class="nav-link active" href="strong-army.html"><span>强军篇章</span></a>
+        </nav>
+      </aside>
+
+      <main class="content" id="main-content">
+        <div class="content-inner">
+          <header class="page-hero hero-strong-army">
+            <div class="hero-overlay" aria-hidden="true"></div>
+            <div class="hero-content">
+              <h2>强军篇章</h2>
+              <p>
+                以改革创新推动国防和军队现代化建设，始终让人民军队成为党和人民最可信赖的钢铁长城。
+              </p>
+            </div>
+          </header>
+
+          <section class="page-section strong-army-section" aria-labelledby="strong-army-title">
+            <div class="two-column">
+              <div>
+                <h3 id="strong-army-title">奋进强军路</h3>
+                <p>
+                  党的二十大报告强调，实现建军一百年奋斗目标，开创国防和军队现代化新局面。必须贯彻新时代党的强军思想，坚持政治建军、改革强军、科技强军、人才强军、依法治军，加快军事理论、组织形态、人员和装备现代化，提高人民军队捍卫国家主权、安全、发展利益的战略能力。
+                </p>
+                <p>
+                  党的二十届三中、四中全会把持续深化国防和军队改革纳入全面深化改革总盘子，要求广大官兵凝聚力量落实战略部署，以改革创新推动国防和军队建设高质量发展，加快把人民军队建成世界一流军队。
+                </p>
+                <p class="media-link">文字来源：新华网</p>
+              </div>
+              <div class="media-card strong-army-video-container">
+                <video controls preload="metadata" class="strong-army-video">
+                  <source src="图片/二十届三中全会.mp4" type="video/mp4" />
+                  您的浏览器不支持视频播放。
+                </video>
+                <p class="media-caption">央视网新闻联播：学习贯彻党的二十届三中全会精神</p>
+              </div>
+            </div>
+          </section>
+
+          <footer class="site-footer">
+            <p>纪念中国人民抗日战争暨世界反法西斯战争胜利80周年专题网站</p>
+            <p>铭记历史 · 缅怀先烈 · 珍爱和平 · 开创未来</p>
+          </footer>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
+

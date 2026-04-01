@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>左权 · 英雄人物 · 纪念中国人民抗日战争胜利80周年</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="hero-detail-page">
+    <div class="layout">
+      <aside class="sidebar" aria-label="主导航">
+        <div class="sidebar-header">
+          <h1 class="site-title">纪念中国人民抗日战争胜利80周年</h1>
+          <button class="toggle-btn" type="button" aria-expanded="true" aria-controls="sidebar-nav">
+            <span class="toggle-icon" aria-hidden="true"></span>
+            <span class="sr-only">收起侧边栏</span>
+          </button>
+        </div>
+        <p class="subtitle">铭记历史 缅怀先烈 珍爱和平 开创未来</p>
+        <nav id="sidebar-nav" class="sidebar-nav">
+          <a class="nav-link" href="index.html"><span>首页</span></a>
+          <a class="nav-link" href="timeline.html"><span>回望历史</span></a>
+          <a class="nav-link active" href="heroes.html"><span>英雄人物</span></a>
+          <a class="nav-link" href="today.html"><span>还看今朝</span></a>
+          <a class="nav-link" href="strong-army.html"><span>强军篇章</span></a>
+        </nav>
+      </aside>
+
+      <main class="content" id="main-content">
+        <div class="content-inner">
+          <header class="page-hero hero-heroes">
+            <div class="hero-overlay" aria-hidden="true"></div>
+            <div class="hero-content">
+              <h2>左权：愿拼热血卫吾华</h2>
+              <p>中国工农红军与八路军高级将领，太行突围中为掩护主力牺牲。</p>
+            </div>
+          </header>
+
+          <section class="page-section" aria-labelledby="zq-title">
+            <h3 id="zq-title">人物事迹</h3>
+            <div class="two-column zuoquan-layout">
+              <div>
+                <p>左权（1905年3月15日-1942年5月25日），湖南醴陵人，原名左纪权，黄埔军校一期学员，1925 年加入中国共产党。长征中，他参与指挥强渡大渡河、腊子口等关键战斗，为红军北上奠定基础；抗日战争时期，又先后参与指挥直罗镇战役、百团大战，在敌后战场重创日军，尽显卓越军事才能。</p>
+                <p>1942年5月，日军对太行抗日根据地发动 “扫荡”，企图围歼中共中央北方局和八路军总部。左权临危受命，指挥部队掩护机关和群众突围转移，在激战中不幸被炮弹击中牺牲，年仅37岁。为纪念这位杰出的军事家，晋冀鲁豫边区政府随后将辽县改名为左权县，让他的英名永远被后人铭记。</p>
+              </div>
+              <div class="media-card yangjingyu-media">
+                <img src="图片/左权.webp" alt="左权" class="yangjingyu-portrait" />
+                <p class="media-caption">左权（1905-1942）</p>
+              </div>
+            </div>
+            <div class="hero-video-container">
+              <video controls preload="metadata" class="hero-video yangjingyu-video">
+                <source src="图片/左权 (2).mp4" type="video/mp4">
+                您的浏览器不支持视频播放。
+              </video>
+            </div>
+          </section>
+
+          <footer class="site-footer">
+            <p>纪念中国人民抗日战争暨世界反法西斯战争胜利80周年专题网站</p>
+            <p>铭记历史 · 缅怀先烈 · 珍爱和平 · 开创未来</p>
+          </footer>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
+
+

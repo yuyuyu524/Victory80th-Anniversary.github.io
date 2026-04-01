@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>赵尚志 · 英雄人物 · 纪念中国人民抗日战争胜利80周年</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="hero-detail-page">
+    <div class="layout">
+      <aside class="sidebar" aria-label="主导航">
+        <div class="sidebar-header">
+          <h1 class="site-title">纪念中国人民抗日战争胜利80周年</h1>
+          <button class="toggle-btn" type="button" aria-expanded="true" aria-controls="sidebar-nav">
+            <span class="toggle-icon" aria-hidden="true"></span>
+            <span class="sr-only">收起侧边栏</span>
+          </button>
+        </div>
+        <p class="subtitle">铭记历史 缅怀先烈 珍爱和平 开创未来</p>
+        <nav id="sidebar-nav" class="sidebar-nav">
+          <a class="nav-link" href="index.html"><span>首页</span></a>
+          <a class="nav-link" href="timeline.html"><span>回望历史</span></a>
+          <a class="nav-link active" href="heroes.html"><span>英雄人物</span></a>
+          <a class="nav-link" href="today.html"><span>还看今朝</span></a>
+          <a class="nav-link" href="strong-army.html"><span>强军篇章</span></a>
+        </nav>
+      </aside>
+
+      <main class="content" id="main-content">
+        <div class="content-inner">
+          <header class="page-hero hero-heroes">
+            <div class="hero-overlay" aria-hidden="true"></div>
+            <div class="hero-content">
+              <h2>赵尚志：冰天雪地矢壮志</h2>
+              <p>东北抗日联军创建人与领导人之一，誓死不降，壮烈牺牲。</p>
+            </div>
+          </header>
+
+          <section class="page-section" aria-labelledby="zsz-title">
+            <h3 id="zsz-title">人物事迹</h3>
+            <div class="two-column zhaoshangzhi-layout">
+              <div class="zhaoshangzhi-left">
+                <p>赵尚志（1908年10月26日—1942年2月12日），热河朝阳人，东北抗日联军创建人和领导人之一，1925年加入中国共产党，长期从事反帝反军阀的革命活动。</p>
+                <p>“九一八”后先后任中共满洲省委常委、军委书记，创建多支抗日游击队并发展成为抗联部队。1942年2月在作战中身负重伤被俘，誓死不降，壮烈牺牲，年仅34岁。2009年入选“100位为新中国成立作出突出贡献的英雄模范人物”。</p>
+                <div class="zhaoshangzhi-portrait-container">
+                  <img src="图片/赵尚志.webp" alt="赵尚志" class="zhaoshangzhi-portrait" />
+                  <p class="media-caption">赵尚志（1908-1942）</p>
+                </div>
+              </div>
+              <div class="zhaoshangzhi-video-container">
+                <video controls preload="metadata" class="hero-video zhaoshangzhi-video">
+                  <source src="图片/赵尚志 (2).mp4" type="video/mp4">
+                  您的浏览器不支持视频播放。
+                </video>
+              </div>
+            </div>
+          </section>
+
+          <footer class="site-footer">
+            <p>纪念中国人民抗日战争暨世界反法西斯战争胜利80周年专题网站</p>
+            <p>铭记历史 · 缅怀先烈 · 珍爱和平 · 开创未来</p>
+          </footer>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
+
+

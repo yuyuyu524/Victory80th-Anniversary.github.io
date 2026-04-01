@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>赵登禹 · 英雄人物 · 纪念中国人民抗日战争胜利80周年</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="hero-detail-page">
+    <div class="layout">
+      <aside class="sidebar" aria-label="主导航">
+        <div class="sidebar-header">
+          <h1 class="site-title">纪念中国人民抗日战争胜利80周年</h1>
+          <button class="toggle-btn" type="button" aria-expanded="true" aria-controls="sidebar-nav">
+            <span class="toggle-icon" aria-hidden="true"></span>
+            <span class="sr-only">收起侧边栏</span>
+          </button>
+        </div>
+        <p class="subtitle">铭记历史 缅怀先烈 珍爱和平 开创未来</p>
+        <nav id="sidebar-nav" class="sidebar-nav">
+          <a class="nav-link" href="index.html"><span>首页</span></a>
+          <a class="nav-link" href="timeline.html"><span>回望历史</span></a>
+          <a class="nav-link active" href="heroes.html"><span>英雄人物</span></a>
+          <a class="nav-link" href="today.html"><span>还看今朝</span></a>
+          <a class="nav-link" href="strong-army.html"><span>强军篇章</span></a>
+        </nav>
+      </aside>
+
+      <main class="content" id="main-content">
+        <div class="content-inner">
+          <header class="page-hero hero-heroes">
+            <div class="hero-overlay" aria-hidden="true"></div>
+            <div class="hero-content">
+              <h2>赵登禹：大刀歌起忆英豪</h2>
+              <p>第二十九军名将，喜峰口夜袭扬名，1937年南苑战斗中牺牲。</p>
+            </div>
+          </header>
+
+          <section class="page-section" aria-labelledby="zdy-title">
+            <h3 id="zdy-title">人物事迹</h3>
+            <div class="two-column zhaoshangzhi-layout">
+              <div class="zhaoshangzhi-left">
+                <p>赵登禹（1898年5月16日—1937年7月28日），山东菏泽人，早年随冯玉祥征战。1933年驰援喜峰口，与日军钤木师团展开惨烈争夺战，夜袭取胜，"大刀队"名扬全国。</p>
+                <p>1937年7月28日，日军重兵进攻南苑，赵登禹率部反击时遭伏击，中弹牺牲，年仅39岁。2009年被评为"100位为新中国成立作出突出贡献的英雄模范人物"。</p>
+                <div class="zhaoshangzhi-portrait-container">
+                  <img src="图片/赵登禹.webp" alt="赵登禹" class="zhaoshangzhi-portrait" />
+                  <p class="media-caption">赵登禹（1898-1937）</p>
+                </div>
+              </div>
+              <div class="zhaoshangzhi-video-container">
+                <video controls preload="metadata" class="hero-video zhaoshangzhi-video">
+                  <source src="图片/赵登禹 (2).mp4" type="video/mp4">
+                  您的浏览器不支持视频播放。
+                </video>
+              </div>
+            </div>
+          </section>
+
+          <footer class="site-footer">
+            <p>纪念中国人民抗日战争暨世界反法西斯战争胜利80周年专题网站</p>
+            <p>铭记历史 · 缅怀先烈 · 珍爱和平 · 开创未来</p>
+          </footer>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
+
+
